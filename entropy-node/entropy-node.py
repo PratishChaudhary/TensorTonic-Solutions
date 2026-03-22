@@ -4,7 +4,6 @@ def entropy_node(y):
     """
     Compute entropy for a single node using stable logarithms.
     """
-    # Write code here
     total = len(y)
     unique_vals, counts = np.unique(y, return_counts=True)
     proba = counts / total
